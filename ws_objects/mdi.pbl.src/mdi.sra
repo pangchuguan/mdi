@@ -14,6 +14,9 @@ global type mdi from application
 string appname = "mdi"
 string themepath = "C:\Program Files (x86)\Appeon\Shared\PowerBuilder\theme190"
 string themename = "Do Not Use Themes"
+boolean nativepdfvalid = false
+boolean nativepdfincludecustomfont = false
+string nativepdfappname = ""
 long richtextedittype = 2
 long richtexteditversion = 1
 string richtexteditkey = ""
@@ -38,6 +41,8 @@ destroy(error)
 destroy(message)
 end on
 
-event open;open(w_mdi)
+event open;
+/////////////add 2020-4-9
+open(w_mdi)
 end event
 

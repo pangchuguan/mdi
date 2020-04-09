@@ -6,5 +6,5 @@ Save Format v3.0(19990112)
  1 "mdidoc.pbt";
  2 "mdiapp.pbt";
 @end;
-DefaultTarget "mdiapp.pbt";
-DefaultRemoteTarget "mdiapp.pbt";
+DefaultTarget "mdi.pbt";
+DefaultRemoteTarget "mdi.pbt";
