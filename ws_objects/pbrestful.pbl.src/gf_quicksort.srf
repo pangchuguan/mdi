@@ -1,0 +1,47 @@
+﻿$PBExportHeader$gf_quicksort.srf
+global type gf_quicksort from function_object
+end type
+
+forward prototypes
+global subroutine gf_quicksort (ref character ai_input[], integer ai_length, integer ai_start)
+end prototypes
+
+global subroutine gf_quicksort (ref character ai_input[], integer ai_length, integer ai_start);
+int i,j,li_count
+char li_temp1, k
+char li_left[],li_right[],li_temp[]
+
+if ai_length <= 1 or ai_start >=ai_length then return
+li_count = upperbound(ai_input)
+k = ai_input[ai_start]
+i = ai_start
+j = ai_length
+do while i < j
+	do while j>i 
+		if asc(ai_input[j]) < asc(k) then
+			ai_input[i] = ai_input[j]
+			exit
+		end if
+		j --
+	loop
+	do while i<j
+		if asc(ai_input[i]) > asc(k) then
+			ai_input[j] = ai_input[i]
+			exit
+		end if
+		i ++
+	loop
+loop
+
+
+ai_input[i] = k
+
+
+gf_quicksort(ai_input,i - 1,1)
+gf_quicksort(ai_input,ai_length, i+1)
+
+
+
+
+end subroutine
+

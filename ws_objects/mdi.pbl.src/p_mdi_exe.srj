@@ -1,0 +1,23 @@
+﻿$PBExportHeader$p_mdi_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:mdi.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:mdi.pbl,,1
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_main,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_mdi2,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,m_menu,m
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,mdi,a
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_popup,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_child,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_response,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,w_mdi,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdi.pbl,d_test,d

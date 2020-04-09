@@ -1,0 +1,33 @@
+﻿$PBExportHeader$p_pbrestful_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:pbrestful.exe,,0,0,1
+CMP:0,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:pbrestful.pbl,,1
+OBJ:D:\PB171\httpclient\pbrestful.pbl,eon_appeon_resize,u
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_php,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_java,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,u_derek_fun,u
+OBJ:D:\PB171\httpclient\pbrestful.pbl,d_license,d
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_paypal,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_main,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_appeon,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_amazonaws,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_memory,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,pbrestful,a
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_googlemap,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_cache,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_main_json,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_net,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_proxy,w
+OBJ:D:\PB171\httpclient\pbrestful.pbl,u_derek_md5,u
+OBJ:D:\PB171\httpclient\pbrestful.pbl,nvo_base64,u
+OBJ:D:\PB171\httpclient\pbrestful.pbl,w_httpclient_error,w

@@ -1,0 +1,6 @@
+﻿$PBExportHeader$str_httpclient.srs
+global type str_httpclient from structure
+	httpclient		hc_1
+	httpclient		hc_array[]
+end type
+

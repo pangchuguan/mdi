@@ -1,0 +1,7 @@
+﻿$PBExportHeader$str_charsort.srs
+global type str_charsort from structure
+	character		str_char
+	long		ltr_asc
+	long		ltr_count
+end type
+

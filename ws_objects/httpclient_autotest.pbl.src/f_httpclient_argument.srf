@@ -1,0 +1,94 @@
+﻿$PBExportHeader$f_httpclient_argument.srf
+global type f_httpclient_argument from function_object
+end type
+
+forward prototypes
+global function string f_httpclient_argument (httpclient ahc_1, ref httpclient ahc_2, str_httpclient astr_1, httpclient ahc_array[])
+end prototypes
+
+global function string f_httpclient_argument (httpclient ahc_1, ref httpclient ahc_2, str_httpclient astr_1, httpclient ahc_array[]);//====================================================================
+// Function: f_httpclient_argument
+//--------------------------------------------------------------------
+// Description:
+//--------------------------------------------------------------------
+// Arguments:
+// 	value        httpclient        ahc_1
+// 	reference    httpclient        ahc_2
+// 	value        str_httpclient    astr_1
+// 	value        httpclient        ahc_array[]
+//--------------------------------------------------------------------
+// Returns:  string
+//--------------------------------------------------------------------
+// Author:	Pangchuguan		Date: 2017-11-20
+//--------------------------------------------------------------------
+//	Copyright (c) 2008-2016 Appeon, All rights reserved.
+//--------------------------------------------------------------------
+// Modify History:
+//
+//====================================================================
+
+String 	ls_value, ls_value2
+HttpClient 	lhc_1
+
+If IsValid ( ahc_1 ) Then
+	ls_value = "Global Functions: value Argument Success" + "~r~n"
+	ls_value2 = ahc_1.GetRequestHeader ( "Pragma" )
+	If ls_value2 = "no-cache" Then
+		ls_value += "Global Functions: GetRequestHeader('Pragma') Success" + "~r~n"
+	Else
+		ls_value += "Global Functions: GetRequestHeader('Pragma') Failed" + "~r~n"
+	End If
+Else
+	ls_value = "Global Functions: value Argument Failed" + "~r~n"
+	ls_value += "Global Functions: GetRequestHeader('Pragma') Failed" + "~r~n"
+End If
+
+If IsValid ( ahc_2 ) Then
+	ls_value += "Global Functions: reference Argument Success" + "~r~n"
+Else
+	ls_value += "Global Functions: reference Argument Failed" + "~r~n"
+End If
+
+If UpperBound ( ahc_array ) > 0 Then
+	If IsValid ( ahc_array[1] ) Then
+		ls_value += "Global Functions: Array Argument Success" + "~r~n"
+		ls_value2 = ahc_array[1] .GetRequestHeader ( "Pragma" )
+		If ls_value2 = "no-cache" Then
+			ls_value += "Global Functions Array: GetRequestHeader('Pragma') Success" + "~r~n"
+		Else
+			ls_value += "Global Functions Array: GetRequestHeader('Pragma') Failed" + "~r~n"
+		End If	
+	Else
+		ls_value += "Global Functions: Array Argument Failed" + "~r~n"
+	End If	
+Else
+	ls_value += "Global Functions: Array Argument Failed" + "~r~n"
+End If
+
+lhc_1 = astr_1.hc_1
+
+If IsValid ( lhc_1 ) Then
+	ls_value += "Structure: Argument Success" + "~r~n"
+Else
+	ls_value += "Structure: Argument Failed" + "~r~n"
+End If
+
+If UpperBound ( astr_1.hc_array ) > 0 Then
+	If IsValid ( astr_1.hc_array[1] ) Then
+		ls_value += "Structure: Array Argument Success" + "~r~n"
+		ls_value2 = astr_1.hc_array[1] .GetRequestHeader ( "Pragma" )
+		If ls_value2 = "no-cache" Then
+			ls_value += "Structure: GetRequestHeader('Pragma') Success" + "~r~n"
+		Else
+			ls_value += "Structure: GetRequestHeader('Pragma') Failed" + "~r~n"
+		End If	
+	Else
+		ls_value += "Structure: Array Argument Failed" + "~r~n"
+	End If	
+Else
+	ls_value += "Structure: Array Argument Failed" + "~r~n"
+End If
+
+Return ls_value
+end function
+

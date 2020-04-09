@@ -1,0 +1,17 @@
+﻿$PBExportHeader$p_webservice.srj
+$PBExportComments$Generated NVO Web Service Application Project
+GeneratorID:{8008E5F2-833D-4D59-8B89-923ADF14D4CE}GENBC00000000
+VirtualDirectoryName:webservice
+InitialCurrentDirectory:C:\pangchuguan\git\httpclient1
+CodeNamespace:cns_webservice
+IgnoreUnsupportedFeatures:1
+BuildSetupFile:0
+SetupFileName:webservice.msi
+ServerName:localhost
+ResourceFiles:0
+AssemblyFiles:0
+PBLibraryFiles:1
+webservice.pbl
+Win32DllFiles:0
+NVOSetting:0
+SupportNillable:0

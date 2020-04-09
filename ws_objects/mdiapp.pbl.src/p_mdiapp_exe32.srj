@@ -1,0 +1,41 @@
+﻿$PBExportHeader$p_mdiapp_exe32.srj
+$PBExportComments$Generated Application Executable Project
+EXE:mdiapp32.exe,,0,1,1
+CMP:0,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:mdiapp.pbl,,1
+PBD:outlookbar.pbl,,1
+PBD:base.pbl,,1
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_orders_report,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_tasks,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\outlookbar.pbl,uo_outlookbar,u
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_customers,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\base.pbl,w_child_base,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_products_report,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_about,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_reports,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_training,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_signout,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_welcome,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_mdi,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_bom,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,m_menu,m
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_option,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,mdiapp,a
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_employees,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_account_setting,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\outlookbar.pbl,d_outlookbar_view,d
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_help,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_orders,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_departments,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_products,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_contrls,w
+OBJ:D:\PB\PB2019R2\RibbonBar\Demo_MDI\mdiapp.pbl,w_child,w

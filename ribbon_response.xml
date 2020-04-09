@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Arial; TextSize:8">
+  <RibbonItems>
+    <ApplicationButton Text="app" Enabled="true" Tag="">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="11" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="" Type="0" Selected="">
+            <Item Text="22" PictureName="EmailBig!" Shortcut="ctrl+2" Checked="false" Enabled="true" Tag="" Type="0" Clicked="ue_menu2" Selected="" />
+            <Item Text="33" PictureName="AccountBig!" Shortcut="ctrl+3" Checked="false" Enabled="true" Tag="" Type="0" Clicked="ue_menu2" Selected="" />
+          </Item>
+        </Master>
+        <Recent Title="">
+          <Item Text="recent" Checked="false" Enabled="true" Tag="" Type="2" Clicked="ue_recent" Selected="" />
+        </Recent>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Über" Enabled="true" Tag="Home" Visible="true">
+        <Panel Text="Optionen">
+          <LargeButton Text="Close Window" PictureName="ExitBig!" Shortcut="ctrl+1" PowerTipText="Close" Visible="true" Clicked="ue_closewin">
+          </LargeButton>
+        </Panel>
+        <Panel Text="test" Enabled="true" Tag="">
+          <SmallButton Text="smallbutton" PictureName="AutoSumSmall!" Clicked="">
+            <Menu>
+              <Item Text="menu1" Shortcut="alt+2" PictureName="" Clicked="ue_menu1" />
+              <Item Text="menu2" Shortcut="alt+x" PictureName="" Clicked="ue_menu2" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="" PictureName="AboutSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="" PowerTipDescription="" Tag="" Clicked="" Selected="" >
+        <Menu>
+          <Item Text="test1" Shortcut="alt+3" Clicked="ue_menu1" PictureName="AddSmall!">
+          </Item>
+        </Menu>
+      </TabButton>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

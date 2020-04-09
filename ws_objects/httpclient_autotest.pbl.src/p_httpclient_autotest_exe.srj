@@ -1,0 +1,27 @@
+﻿$PBExportHeader$p_httpclient_autotest_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:httpclient_autotest.exe,,0,0,1
+CMP:0,0,0,2,0,0,1
+COM:Appeon
+DES:Appeon Product File
+CPY:
+PRD:PowerBuilder Enterprise Series
+PVS:1.0.0.1
+PVN:1,0,0,1
+FVS:1.0.0.1
+FVN:1,0,0,1
+MAN:0,asInvoker,0
+PBD:httpclient_autotest.pbl,,1
+PBD:qa_common.pbl,,1
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,eon_appeon_resize,u
+OBJ:C:\pangchuguan\httpclient\qa_common.pbl,w_appeon_base,w
+OBJ:C:\pangchuguan\httpclient\qa_common.pbl,w_base,w
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,httpclient_autotest,a
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,f_httpclient_argument,f
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,w_httpclient,w
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,uo_httpclient,u
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,str_httpclient,s
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,w_tmp2,w
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,w_tmp3,w
+OBJ:C:\pangchuguan\httpclient\qa_common.pbl,w_viewresult,w
+OBJ:C:\pangchuguan\httpclient\httpclient_autotest.pbl,w_tmp,w

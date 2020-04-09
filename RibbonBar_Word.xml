@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0">
+  <RibbonItems>
+    <Categories>
+      <Category Text="Home" Enabled="true" Tag="CategoryTag">
+        <Panel Text="Clipboard" PictureName="png\word_icon\Home\Layer-0.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Paste" PictureName="png\word_icon\Home\Layer-0.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected=""  Shortcut="Ctrl+V">
+            <Menu>
+              <Item Text="Menu test" PictureName="png\word_icon\Home\Layer-0.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <SmallButton Text="Cut" PictureName="png\word_icon\Home\Layer-1.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Copy" PictureName="png\word_icon\Home\Layer-2.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Format Painter" PictureName="png\word_icon\Home\Layer-3.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Font" PictureName="png\word_icon\Home\Layer-28.png" Enabled="true" Tag="PanelTag">
+          <Group Enabled="true" NewLine="false" Tag="GroupTag">
+            <ComboBox PictureName="" Label="" AllowEdit="true" AutoScale="true" Text="Times New Roman" AutoHScroll="true" Enabled="true"  HScrollBar="true" VScrollBar="true" SelectedIndex="0" Sorted="false" Tag="ComboBoxTag" BoxHeight="100" BoxWidth="50" Width="100" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="ue_test2">
+              <Item Text="Times New Roman" PictureName="" />
+              <Item Text="Font1" PictureName="" />
+              <Item Text="Font10" PictureName="" />
+              <Item Text="Font12" PictureName="" />
+              <Item Text="Font13" PictureName="" />
+            </ComboBox>
+            <ComboBox PictureName="" Label="" AllowEdit="true" AutoScale="false" Text="12" AutoHScroll="true" Enabled="true"  HScrollBar="true" VScrollBar="true" SelectedIndex="0" Sorted="true" Tag="ComboBoxTag" BoxHeight="100" BoxWidth="200" Width="200" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="ue_test2">
+              <Item Text="8" PictureName="" />
+              <Item Text="9" PictureName="" />
+              <Item Text="10" PictureName="" />
+              <Item Text="11" PictureName="" />
+              <Item Text="12" PictureName="" />
+              <Item Text="13" PictureName="" />
+              <Item Text="14" PictureName="" />
+            </ComboBox>
+          </Group>
+          <Group Enabled="true" NewLine="false" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-23.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-24.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-25.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-25.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-26.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-27.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-28.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          </Group>
+          <Group Enabled="true" NewLine="true" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-4.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-4.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-5.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-6.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-7.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-8.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-9.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          </Group>
+          <Group Enabled="true" NewLine="false" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-10.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-10.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-11.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-11.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-12.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-12.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-13.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-14.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          </Group>
+        </Panel>
+        <Panel Text="Paragraph" PictureName="png\word_icon\Home\Layer-29.png" Enabled="true" Tag="PanelTag">
+          <Group Enabled="true" NewLine="false" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-29.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-29.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-30.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-30.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-31.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-31.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-32.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-33.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-34.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-35.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-36.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          </Group>
+          <Group Enabled="true" NewLine="true" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-15.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-16.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-17.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-18.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-19.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-20.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-20.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-21.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-21.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+            <SmallButton Text="" PictureName="png\word_icon\Home\Layer-22.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <Menu>
+                <Item Text="" PictureName="png\word_icon\Home\Layer-22.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              </Menu>
+            </SmallButton>
+          </Group>
+        </Panel>
+        <Panel Text="Editing" PictureName="png\word_icon\Home\Layer-37.png" Enabled="true" Tag="PanelTag">
+          <SmallButton Text="Find" PictureName="png\word_icon\Home\Layer-37.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Find" PictureName="png\word_icon\Home\Layer-37.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              <Item Text="Advanced Find..." PictureName="png\word_icon\Home\Layer-37.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              <Item Text="Go To..." PictureName="png\word_icon\Home\Layer-37.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Replace" PictureName="png\word_icon\Home\Layer-38.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Select" PictureName="png\word_icon\Home\Layer-39.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Select All" PictureName="png\word_icon\Home\Layer-39.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              <Item Text="Select Objects" PictureName="png\word_icon\Home\Layer-39.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+              <Item Text="Select Text with Similar Formatting" PictureName="png\word_icon\Home\Layer-39.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+      </Category>
+      <Category Text="Insert" Enabled="true" Tag="CategoryTag">
+        <Panel Text="Pages" PictureName="png\word_icon\Insert\Layer-40.png" Enabled="true" Tag="PanelTag">
+          <SmallButton Text="Cover Page" PictureName="png\word_icon\Insert\Layer-40.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu test" PictureName="png\word_icon\Insert\Layer-40.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Blank Page" PictureName="png\word_icon\Insert\Layer-41.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Page Break" PictureName="png\word_icon\Insert\Layer-42.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Tables" PictureName="png\word_icon\Insert\Layer-1.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Table" PictureName="png\word_icon\Insert\Layer-1.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu test" PictureName="png\word_icon\Insert\Layer-1.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+        </Panel>
+        <Panel Text="Illustrations" PictureName="png\word_icon\Insert\Layer-4.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Pictures" PictureName="png\word_icon\Insert\Layer-2.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Online Pictures" PictureName="png\word_icon\Insert\Layer-3.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Shapes" PictureName="png\word_icon\Insert\Layer-4.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Use Shapes" PictureName="png\word_icon\Insert\Layer-4.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <LargeButton Text="SmartArt" PictureName="png\word_icon\Insert\Layer-5.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Chart" PictureName="png\word_icon\Insert\Layer-6.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Screenshot" PictureName="png\word_icon\Insert\Layer-7.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Available Windows" PictureName="png\word_icon\Insert\Layer-7.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+        </Panel>
+        <Panel Text="Add-ins" PictureName="png\word_icon\Insert\Layer-44.png" Enabled="true" Tag="PanelTag">
+          <SmallButton Text="Store" PictureName="png\word_icon\Insert\Layer-43.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="My Add-ins" PictureName="png\word_icon\Insert\Layer-44.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Used Add-ins" PictureName="png\word_icon\Insert\Layer-44.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+        <Panel Text="Media" PictureName="png\word_icon\Insert\Layer-9.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Online Video" PictureName="png\word_icon\Insert\Layer-9.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Links" PictureName="png\word_icon\Insert\Layer-45.png" Enabled="true" Tag="PanelTag">
+          <SmallButton Text="Hyperlink" PictureName="png\word_icon\Insert\Layer-45.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Bookmark" PictureName="png\word_icon\Insert\Layer-46.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Cross-reference" PictureName="png\word_icon\Insert\Layer-47.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Comments" PictureName="png\word_icon\Insert\Layer-10.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Comment" PictureName="png\word_icon\Insert\Layer-10.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Header &amp;&amp; Footer" PictureName="png\word_icon\Insert\Layer-11.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Header" PictureName="png\word_icon\Insert\Layer-11.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Blank" PictureName="png\word_icon\Insert\Layer-11.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <LargeButton Text="Footer" PictureName="png\word_icon\Insert\Layer-12.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Blank" PictureName="png\word_icon\Insert\Layer-12.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <LargeButton Text="Page Number" PictureName="png\word_icon\Insert\Layer-13.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Blank" PictureName="png\word_icon\Insert\Layer-13.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+        </Panel>
+        <Panel Text="Text" PictureName="png\word_icon\Insert\Layer-14.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="text Box" PictureName="png\word_icon\Insert\Layer-14.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Build in" PictureName="png\word_icon\Insert\Layer-14.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <SmallButton Text="Quick Parts" PictureName="png\word_icon\Insert\Layer-48.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Auto text" PictureName="png\word_icon\Insert\Layer-48.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="WordArt" PictureName="png\word_icon\Insert\Layer-49.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="WordArtt" PictureName="png\word_icon\Insert\Layer-49.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Drop Cap" PictureName="png\word_icon\Insert\Layer-50.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="None" PictureName="png\word_icon\Insert\Layer-50.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Signature Line" PictureName="png\word_icon\Insert\Layer-51.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="None" PictureName="png\word_icon\Insert\Layer-51.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Date &amp;&amp; Time" PictureName="png\word_icon\Insert\Layer-52.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Object" PictureName="png\word_icon\Insert\Layer-53.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="None" PictureName="png\word_icon\Insert\Layer-53.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+        <Panel Text="Symbols" PictureName="png\word_icon\Insert\Layer-55.png" Enabled="true" Tag="PanelTag">
+          <SmallButton Text="Equation" PictureName="png\word_icon\Insert\Layer-54.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="None" PictureName="png\word_icon\Insert\Layer-54.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Symbol" PictureName="png\word_icon\Insert\Layer-55.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="None" PictureName="png\word_icon\Insert\Layer-55.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Number" PictureName="png\word_icon\Insert\Layer-56.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+      </Category>
+      <Category Text="References" Enabled="true" Tag="CategoryTag">
+        <Panel Text="Table of Contents" PictureName="png\word_icon\Reference\Layer-15.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Table of Contents" PictureName="png\word_icon\Reference\Layer-15.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu test" PictureName="png\word_icon\Reference\Layer-15.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <SmallButton Text="Add Text" PictureName="png\word_icon\Reference\Layer-57.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu Test" PictureName="png\word_icon\Reference\Layer-57.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Update Table" PictureName="png\word_icon\Reference\Layer-58.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Footnotes" PictureName="png\word_icon\Reference\Layer-16.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Insert Footnote" PictureName="png\word_icon\Reference\Layer-16.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Insert Endnote" PictureName="png\word_icon\Reference\Layer-59.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Next Footnote" PictureName="png\word_icon\Reference\Layer-60.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu Test" PictureName="png\word_icon\Reference\Layer-60.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+          <SmallButton Text="Show Notes" PictureName="png\word_icon\Reference\Layer-61.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Citations &amp;&amp; Bibliography" PictureName="png\word_icon\Reference\Layer-17.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Insert Citation" PictureName="png\word_icon\Reference\Layer-17.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu test" PictureName="png\word_icon\Reference\Layer-17.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </LargeButton>
+          <SmallButton Text="Manage Sources" PictureName="png\word_icon\Reference\Layer-62.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <ComboBox PictureName="png\word_icon\Reference\Layer-63.png" Label="Style:" AllowEdit="true" AutoScale="false" Text="Gost" AutoHScroll="true" Enabled="true"  HScrollBar="true" VScrollBar="true" SelectedIndex="0" Sorted="true" Tag="ComboBoxTag" BoxHeight="100" BoxWidth="60" Width="110" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="ue_test2">
+            <Item Text="APA" PictureName="" />
+          </ComboBox>
+          <SmallButton Text="Bibliography" PictureName="png\word_icon\Reference\Layer-64.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+            <Menu>
+              <Item Text="Menu Test" PictureName="png\word_icon\Reference\Layer-64.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+        <Panel Text="Captions" PictureName="png\word_icon\Reference\Layer-18.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Insert Caption" PictureName="png\word_icon\Reference\Layer-18.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Insert Table of Figures" PictureName="png\word_icon\Reference\Layer-65.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Update Table" PictureName="png\word_icon\Reference\Layer-58.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Cross-reference" PictureName="png\word_icon\Reference\Layer-66.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Index" PictureName="png\word_icon\Reference\Layer-19.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Mark Entry" PictureName="png\word_icon\Reference\Layer-19.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Insert Index" PictureName="png\word_icon\Reference\Layer-65.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Update Index" PictureName="png\word_icon\Reference\Layer-58.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Table of Authorities" PictureName="png\word_icon\Reference\Layer-20.png" Enabled="true" Tag="PanelTag">
+          <LargeButton Text="Mark Citation" PictureName="png\word_icon\Reference\Layer-20.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Insert Table of Authorities" PictureName="png\word_icon\Reference\Layer-67.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Update Table" PictureName="png\word_icon\Reference\Layer-58.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="up" PictureName="png\up.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="TabButtonTag" Clicked="ue_SetMini" Selected="ue_test"/>
+      <TabButton Text="Help" PictureName="png\help.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="TabButtonTag" Clicked="ue_test" Selected="ue_test"/>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

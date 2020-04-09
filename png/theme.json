@@ -1,0 +1,262 @@
+{								
+	"ribbonbar":				
+	{											
+		"normal-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF"                 
+		},                                         
+		"hover-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF"                   
+		},                                           
+		"pressed-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF"                   
+		},                                           
+		"disabled-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF"                   
+		}                                          
+	},											
+	"ribboncategoryitem":						
+	{											
+		"inner-margin-width":[50,0,50,0],							
+		"normal-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                   
+			"head-border-width":1,							
+			"head-border-color": "#D9D9D9",                      
+			"head-background-color": "#F0F2F5",                   
+			"head-corner":[0,2,2,0],                                   
+			"head-text-color":"#000000"                           
+		},                                           
+		"hover-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                   
+			"head-border-width":1,							
+			"head-border-color": "#E5E5E5",                      
+			"head-background-color": "#F6F8FA",                   
+			"head-corner":[0,2,2,0],                                   
+			"head-text-color":"#CCCCCC"                           
+		},                                           
+		"active-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF",                   
+			"head-border-width":1,							
+			"head-border-color": "#D9D9D9",                      
+			"head-background-color": "#F0F2F5",                   
+			"head-corner":[1,2,2,1],                                   
+			"head-text-color":"#000000"                           
+		},                                           
+		"pressed-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                   
+			"head-border-width":1,							
+			"head-border-color": "#D9D9D9",                      
+			"head-background-color": "#F0F2F5",                   
+			"head-corner":[0,2,2,0],                                   
+			"head-text-color":"#000000"                           
+		},                                           
+		"disabled-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#FFFFFF",                      
+			"background-color": "#FFFFFF",                   
+			"head-border-width":1,							
+			"head-border-color": "#FFFFFF",                      
+			"head-background-color": "#FFFFFF",                   
+			"head-corner":[0,2,2,0],                                   
+			"head-text-color":"#999999"                           
+		}                                          
+	},
+	"ribbonpanelitem":						
+	{														
+		"normal-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",
+			"text-color":"#000000"                                         
+		},                                           
+		"hover-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                                                                
+			"text-color":"#000000"                           
+		},                                           
+		"active-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                                                    
+			"text-color":"#000000"                           
+		},                                           
+		"pressed-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                                                  
+			"text-color":"#000000"                           
+		},                                           
+		"disabled-state":               
+		{                                        
+			"border-width":1,							
+			"border-color": "#D9D9D9",                      
+			"background-color": "#F0F2F5",                                                   
+			"text-color":"#000000"                           
+		}                                          
+	},
+	"ribboncheckboxitem":                                                             
+	{                                                                       											
+ 		"drawing":true,                                                       
+  		"normal-state":                                                       
+  		{
+			"background-color": "#FFFFFF",                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-normal-unchecked.bmp"},         
+  				"checked":{"file":"checkbox-box-normal-checked.bmp"},             
+  				"indeterminate":{"file":"checkbox-box-normal-indeterminate.bmp"}  
+  			}                                                                   
+		},                                                                    
+  		"hover-state":                                                        
+  		{
+			"background-color": "#FFFFFF",                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-hover-unchecked.bmp"},          
+  				"checked":{"file":"checkbox-box-hover-checked.bmp"},              
+  				"indeterminate":{"file":"checkbox-box-hover-indeterminate.bmp"}   
+  			}                                                                   
+  		},                                                                    
+  		"pressed-state":                                                      
+  		{
+			"background-color": "#FFFFFF",                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-pressed-unchecked.bmp"},        
+  				"checked":{"file":"checkbox-box-pressed-checked.bmp"},            
+  				"indeterminate":{"file":"checkbox-box-pressed-indeterminate.bmp"} 
+  			}                                                                   
+		},                                                                    
+  		"focused-state":                                                      
+  		{
+			"background-color": "#FFFFFF",                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-focused-unchecked.bmp"},        
+  				"checked":{"file":"checkbox-box-focused-checked.bmp"},            
+  				"indeterminate":{"file":"checkbox-box-focused-indeterminate.bmp"} 
+  			}                                                                   
+  		},                                                                    
+  		"disabled-state":                                                     
+  		{
+			"background-color": "#FFFFFF",                                                                     
+  			"text-font":{"color":"#999999"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-disabled-unchecked.bmp"},       
+  				"checked":{"file":"checkbox-box-disabled-checked.bmp"},           
+  				"indeterminate":{"file":"checkbox-box-disabled-indeterminate.bmp"}
+  			}                                                                   
+  		}
+	},
+	"ribbonsmallbuttonitem":                                                             
+	{                                                                       											
+ 		"drawing":true,                                                       
+  		"normal-state":                                                       
+  		{                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-normal-unchecked.bmp"},         
+  				"checked":{"file":"checkbox-box-normal-checked.bmp"}         
+  			}                                                                   
+		},                                                                    
+  		"hover-state":                                                        
+  		{                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-hover-unchecked.bmp"},          
+  				"checked":{"file":"checkbox-box-hover-checked.bmp"}             
+			}                                                                   
+	 	},                                                                    
+	  	"pressed-state":                                                      
+	 	{                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-pressed-unchecked.bmp"},        
+  				"checked":{"file":"checkbox-box-pressed-checked.bmp"}            
+  			}                                                                   
+		},                                                                    
+		"focused-state":                                                      
+		{                                                                     
+  			"text-font":{"color":"#000000"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-focused-unchecked.bmp"},        
+  				"checked":{"file":"checkbox-box-focused-checked.bmp"}          
+  			}                                                                   
+		},                                                                    
+  		"disabled-state":                                                     
+	 	{                                                                     
+  			"text-font":{"color":"#999999"},                                    
+  			"box-images":                                                       
+  			{                                                                   
+  				"unchecked":{"file":"checkbox-box-disabled-unchecked.bmp"},       
+  				"checked":{"file":"checkbox-box-disabled-checked.bmp"}         
+			}                                                                   
+		}
+	},
+	"ribbonbuttonmenu":
+	{
+		"drawing":true,                                                       
+  		"normal-state":                                                       
+  		{
+			"border-width":1,							
+			"border-color": "#999999",                      
+			"background-color": "#FFFFFF"  
+		}, 
+		"hover-state":
+		{
+			"border-width":1,							
+			"border-color": "#999999",                      
+			"background-color": "#333333"  
+		}, 
+		"pressed-state":
+		{
+			"border-width":1,							
+			"border-color": "#999999",                      
+			"background-color": "#0000FF"  
+		}, 
+		"disabled-state":
+		{
+			"border-width":1,							
+			"border-color": "#999999",                      
+			"background-color": "#FFFFFF"  
+		}       
+	}
+}                                                                     

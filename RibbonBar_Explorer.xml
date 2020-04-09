@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0">
+    <RibbonItems>	 
+		<!--Category数组-->
+        <Categories>
+        	<!--Category-->
+            <Category Text="Home" Enabled="true" Tag="CategoryTag">
+				<!--Panel-->
+				<Panel Text="Clipboard" PictureName="png\explorer_icon\Layer-7.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Pin to Quick access" PictureName="png\explorer_icon\Layer-9.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<LargeButton Text="Copy" PictureName="png\explorer_icon\Layer-8.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" Shortcut="Ctrl+C" />
+					<LargeButton Text="Parst" PictureName="png\explorer_icon\Layer-7.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Cut" PictureName="png\explorer_icon\11.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Copy path" PictureName="png\explorer_icon\10.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" Shortcut="Ctrl+Alt+C" />
+					<SmallButton Text="Parst shotcut" PictureName="png\explorer_icon\9.png" Checked="false" DefaultCommand="true" Enabled="false" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="Organize" PictureName="png\explorer_icon\Layer-4.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Move to" PictureName="png\explorer_icon\Layer-6.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-6.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<LargeButton Text="Copy to" PictureName="png\explorer_icon\Layer-5.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-5.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<LargeButton Text="Delete" PictureName="png\explorer_icon\Layer-4.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-4.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<LargeButton Text="Rename" PictureName="png\explorer_icon\Layer-3.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="New" PictureName="png\explorer_icon\Layer-2.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="New folder" PictureName="png\explorer_icon\Layer-2.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="New item" PictureName="png\explorer_icon\7.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\7.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</SmallButton>
+					<SmallButton Text="Easy access" PictureName="png\explorer_icon\8.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\8.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</SmallButton>
+				</Panel>
+				<Panel Text="Open" PictureName="png\explorer_icon\6.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Properties" PictureName="png\explorer_icon\Layer-1.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-1.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<SmallButton Text="Open" PictureName="png\explorer_icon\6.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\6.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</SmallButton>
+					<SmallButton Text="Edit" PictureName="png\explorer_icon\5.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="History" PictureName="png\explorer_icon\4.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="Select" PictureName="png\explorer_icon\3.png" Enabled="true" Tag="PanelTag">						
+					<SmallButton Text="Select all" PictureName="png\explorer_icon\3.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Select none" PictureName="png\explorer_icon\2.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Invert select" PictureName="png\explorer_icon\1.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				
+          </Category>
+		  <Category Text="Share" Enabled="true" Tag="CategoryTag">
+				<Panel Text="Send" PictureName="png\explorer_icon\Share.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Share" PictureName="png\explorer_icon\Share.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<LargeButton Text="Email" PictureName="png\explorer_icon\Email.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<LargeButton Text="Zip" PictureName="png\explorer_icon\Zip.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Burn to disc" PictureName="png\explorer_icon\burn-to-disc.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Print" PictureName="png\explorer_icon\Print2.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Fax" PictureName="png\explorer_icon\Fax.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="Share with" PictureName="png\explorer_icon\Share.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Stop sharing" PictureName="png\explorer_icon\stop-sharing.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="" PictureName="png\explorer_icon\Share.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Advanced security" PictureName="png\explorer_icon\advanced-security.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				
+		  </Category>
+		  <Category Text="View" Enabled="true" Tag="CategoryTag">
+				<Panel Text="Panes" PictureName="png\explorer_icon\Layer-13.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Navigation pane" PictureName="png\explorer_icon\Layer-13.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-13.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<SmallButton Text="Preview pane" PictureName="png\explorer_icon\16.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<SmallButton Text="Details pane" PictureName="png\explorer_icon\15.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="Current view" PictureName="png\explorer_icon\Layer-12.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Sort by" PictureName="png\explorer_icon\Layer-12.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-12.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+					<SmallButton Text="Group by" PictureName="png\explorer_icon\14.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\14.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</SmallButton>
+					<SmallButton Text="Add column" PictureName="png\explorer_icon\13.png" Checked="false" DefaultCommand="false" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\13.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</SmallButton>
+					<SmallButton Text="Size all columns to fit" PictureName="png\explorer_icon\12.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="Show/hide" PictureName="png\explorer_icon\Layer-11.png" Enabled="true" Tag="PanelTag">						
+					<CheckBox Text="Item check boxes" Checked="false" Enabled="true"  ThreeState="false" Tag="CheckBoxTag" Clicked="ue_test" Selected="ue_test" />
+					<CheckBox Text="File name extensions" Checked="true" Enabled="true"  ThreeState="false" Tag="CheckBoxTag" Clicked="ue_test" Selected="ue_test" />
+					<CheckBox Text="Hiddent items" Checked="true" Enabled="true"  ThreeState="false" Tag="CheckBoxTag" Clicked="ue_test" Selected="ue_test" />
+					<LargeButton Text="Hide Selected items" PictureName="png\explorer_icon\Layer-11.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="" PictureName="png\explorer_icon\Layer-10.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Options" PictureName="png\explorer_icon\Layer-10.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" >
+						<Menu>
+						   <Item Text="Menu test" PictureName="png\explorer_icon\Layer-10.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test1" Selected="" />
+                       </Menu>
+					</LargeButton>
+				</Panel>
+		  </Category>
+		  
+		  <Category Text="Manage" Enabled="true" Tag="CategoryTag">
+				<Panel Text="Rotate" PictureName="png\explorer_icon\rotate-left.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Rotate left" PictureName="png\explorer_icon\rotate-left.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<LargeButton Text="Rotate right" PictureName="png\explorer_icon\rotate-right.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+				<Panel Text="View" PictureName="png\explorer_icon\slide-show.png" Enabled="true" Tag="PanelTag">						
+					<LargeButton Text="Slide show" PictureName="png\explorer_icon\slide-show.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+					<LargeButton Text="Set as background" PictureName="png\explorer_icon\set-as-background.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+				</Panel>
+		  </Category>
+		  
+		</Categories>
+		<!--TabButton数组-->
+		<TabButtons>
+          <TabButton Text="up" PictureName="png\up.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="TabButtonTag" Clicked="ue_SetMini" Selected="ue_test"/>					            
+		  <TabButton Text="Help" PictureName="png\help.png" Checked="false" DefaultCommand="true" Enabled="true" Tag="TabButtonTag" Clicked="ue_test" Selected="ue_test"/>					            
+		  
+		</TabButtons>				
+	</RibbonItems>	
+</RibbonBar>

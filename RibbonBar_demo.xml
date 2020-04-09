@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:8">
+  <RibbonItems>
+    <ApplicationButton Text="ApplicationButton"  Enabled="true"  Tag="ApplicationButton" >
+      <!--主应用菜单-->
+      <ApplicationMenu>
+        <!--主应用菜单只能添加0和1类型菜单项，最多只支持到二级菜单项-->
+        <Master>
+          <Item Text="ApplicationMenu1" PictureName="AccountBig!" Checked="false" Enabled="true" Tag="ApplicationMenu1" Type="0" Clicked="ue_MenuClicked" Selected="ue_MenuSelected">
+            <Item Text="ApplicationSubMenu1"  Shortcut="shift+1" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="ApplicationSubMenu1" Type="0" Clicked="ue_MenuClicked" Selected="ue_MenuSelected" />
+            <Item Text="ApplicationSubMenu2" Shortcut="shift+2" PictureName="ActionsBig!" Checked="false" Enabled="true" Tag="ApplicationSubMenu2" Type="0" Clicked="ue_MenuClicked" Selected="ue_MenuSelected" />
+          </Item>
+          <Item Type="1" />
+          <Item Text="ApplicationMenu2" Shortcut="shift+3" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="ApplicationMenu2" Type="0" Clicked="ue_MenuClicked" Selected="ue_MenuSelected" />
+        </Master>
+        <!--主应用Recent菜单列表只能添加2类型菜单项-->
+        <Recent Title="Recent Items">
+          <Item Text="RecentMenu1" Checked="false" Enabled="true" Tag="RecentMenu1" Type="2" Clicked="ue_RecentMenuClicked" Selected="ue_RecentMenuSelected" />
+          <Item Text="RecentMenu2" Checked="false" Enabled="true" Tag="RecentMenu2" Type="2" Clicked="ue_RecentMenuClicked" Selected="ue_RecentMenuSelected" />
+          <Item Text="RecentMenu3" Checked="false" Enabled="true" Tag="RecentMenu3" Type="2" Clicked="ue_RecentMenuClicked" Selected="ue_RecentMenuSelected" />
+        </Recent>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <!--Category数组-->
+    <Categories>
+      <!--Category-->
+      <Category Text="Home" Enabled="true" Tag="CategoryTag">
+        <!--Panel-->
+        <Panel Text="Tab" PictureName="png\history.png" Enabled="true" Tag="PanelTag">
+          <!--LargeButton-->
+          <LargeButton Text="History" PictureName="png\history.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="">
+            <!--默认菜单只能添加0和1类型菜单项，最多只支持到二级菜单项-->
+            <Menu>
+              <Item Text="Employee" PictureName="png\employee.png" Checked="false"   Clicked="" />
+              <Item Text="Product"   PictureName="png\product.png" Checked="false"   Clicked=""  />
+              <Item Text="Order"  PictureName="png\order.png" Checked="false"   Clicked=""  />
+              <Item Text="Task" PictureName="png\task.png" Checked="false"   Clicked=""  />
+              <Item Text="Report" PictureName="png\report.png" Checked="false"   Clicked=""  />
+            </Menu>
+          </LargeButton>
+          <!--SmallButton-->
+          <SmallButton Text="Close All" Shortcut="Ctrl+Alt+C" PictureName="png\close-all.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_closeall" Selected="" />
+          <SmallButton Text="Close" Shortcut="Ctrl+C" PictureName="png\close.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_close" Selected="" />
+        </Panel>
+        <Panel Text="Dashboard" PictureName="png\employee.png" Enabled="true" Tag="PanelTag">
+          <!--LargeButton-->
+          <LargeButton Text="Employee" Shortcut="Ctrl+E" PictureName="png\employee.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_open2" Selected="" />
+          <LargeButton Text="Product"  Shortcut="Ctrl+D" PictureName="png\product.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_open3" Selected="" />
+          <LargeButton Text="Order" Shortcut="Ctrl+O" PictureName="png\order.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Task" PictureName="png\task.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Report" PictureName="png\report.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+        </Panel>
+        <Panel Text="Actions" PictureName="png\add.png" Enabled="true" Tag="PanelTag">
+          <!--LargeButton-->
+          <LargeButton Text="Add" PictureName="png\add.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Delete" PictureName="png\delete.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <LargeButton Text="Save" PictureName="png\save.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_test" Selected="" />
+          <!--SmallButton-->
+          <SmallButton Text="Modify" PictureName="png\modify.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Query" PictureName="png\query.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <!--Group-->
+          <Group Enabled="true" NewLine="true" Tag="GroupTag">
+            <SmallButton Text="" PictureName="png\First.png" Clicked="ue_test" />
+            <SmallButton Text="" PictureName="png\Pre.png" Clicked="ue_test" />
+            <SmallButton Text="" PictureName="png\Next.png" Clicked="ue_test" />
+            <SmallButton Text="" PictureName="png\Last.png" Clicked="ue_test" />
+          </Group>
+          <Group Enabled="true" NewLine="true" Tag="GroupTag">
+            <CheckBox Text="Check" Checked="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description"  ThreeState="false" Tag="CheckBoxTag" Clicked="ue_test" Selected="" />
+            <SmallButton Text="More" PictureName="png\more.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+              <!--默认菜单只能添加0和1类型菜单项，最多只支持到二级菜单项-->
+              <Menu>
+                <Item Text="Menu Test1" PictureName="" Checked="false" Enabled="true" Tag="Menu1" Type="0" Clicked="ue_test3" Selected="">
+                  <Item Text="ButtonSubMenu1" PictureName="SubMenu1.png" Checked="false" Enabled="true" Tag="ButtonSubMenu1" Type="0" Clicked="ue_test3" Selected="" />
+                </Item>
+                <Item Type="1" />
+                <Item Text="Menu Test2" Shortcut="shift+6" PictureName="" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+                <Item Type="1" />
+                <Item Text="Menu Test3" Shortcut="shift+7" PictureName="" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+                <Item Type="1" />
+              </Menu>
+            </SmallButton>
+          </Group>
+          <Group Enabled="true" NewLine="true" Tag="GroupTag">
+            <ComboBox PictureName="png\page-size.png" Label="Page Size" AllowEdit="true" AutoScale="true" Text="" AutoHScroll="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description"  HScrollBar="true" VScrollBar="false" SelectedIndex="1" Sorted="true" Tag="ComboBoxTag" BoxHeight="500" BoxWidth="50" Width="100" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="ue_test2">
+              <Item Text="Font Size" PictureName="png\page-size.png" />
+              <Item Text="Font1" PictureName="" />
+              <Item Text="Font10" PictureName="" />
+              <Item Text="Font12" PictureName="" />
+              <Item Text="Font13" PictureName="" />
+            </ComboBox>
+          </Group>
+        </Panel>
+        <Panel Text="Print" PictureName="png\print.png" Enabled="true" Tag="PanelTag">
+          <!--LargeButton-->
+          <LargeButton Text="Print" Shortcut="Ctrl+P" PictureName="png\print.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="LargeButtonTag" Clicked="ue_print" Selected="" />
+          <!--SmallButton-->
+          <SmallButton Text="Preview" PictureName="png\preview.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="Setup" PictureName="png\setup.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <CheckBox Text="Print Title" Checked="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description"  ThreeState="true" Tag="CheckBoxTag" Clicked="ue_checkbox" Selected="" />
+          <!--ComboBox-->
+          <ComboBox PictureName="png\page-size.png" Label="Page Size" AllowEdit="false" AutoScale="true" Text="123" AutoHScroll="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description"  HScrollBar="true" VScrollBar="true" SelectedIndex="0" Sorted="true" Tag="ComboBoxTag" BoxHeight="500" BoxWidth="50" Width="100" Modified="ue_ComboBoxModified" Selected="" SelectionChanged="ue_test2">
+            <Item Text="Font Size" PictureName="" />
+            <Item Text="Font1" PictureName="" />
+            <Item Text="Font10" PictureName="" />
+            <Item Text="Font12" PictureName="" />
+            <Item Text="Font13" PictureName="" />
+          </ComboBox>
+          <SmallButton Text="Font Size" PictureName="png\font-size.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" />
+          <SmallButton Text="More" PictureName="png\more.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="SmallButtonTag" Clicked="ue_test" Selected="" >
+            <!--默认菜单只能添加0和1类型菜单项，最多只支持到二级菜单项-->
+            <Menu>
+              <Item Text="Menu Test1" PictureName="" Checked="false" Enabled="true" Tag="Menu1" Type="0" Clicked="ue_test3" Selected="">
+              </Item>
+              <Item Type="1" />
+              <Item Text="Menu Test2" PictureName="" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+              <Item Type="1" />
+              <Item Text="Menu Test3" PictureName="" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+              <Item Type="1" />
+            </Menu>
+          </SmallButton>
+          <LargeButton Text="disc" PictureName="png\burn-to-disc.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="TabButtonTag" Clicked="ue_test" Selected="">
+            <Menu>
+              <Item Text="Print First" PictureName="png\first.png" Checked="true" Enabled="true" Tag="Menu1" Type="0" Clicked="ue_test3" Selected="">
+                <Item Text="ButtonSubMenu1" Shortcut="shift+alt+8" PictureName="png\first.png" Checked="false" Enabled="true" Tag="ButtonSubMenu1" Type="0" Clicked="ue_test3" Selected="" />
+                <Item Text="ButtonSubMenu2" Shortcut="shift+alt+9" PictureName="png\first.png" Checked="false" Enabled="true" Tag="ButtonSubMenu2" Type="0" Clicked="ue_test3" Selected="" />
+              </Item>
+              <Item Text="Position Insert" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+              <Item Text="Menu Test" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+              <Item Type="1" />
+              <Item Text="Print Windows afxtestttttt" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+              <Item Type="1" />
+            </Menu>
+          </LargeButton>
+        </Panel>
+      </Category>
+      <Category Text="Modules" Enabled="true" Tag="CategoryTag"/>
+      <Category Text="System" Enabled="true" Tag="CategoryTag"/>
+      <Category Text="Window" Enabled="true" Tag="CategoryTag"/>
+      <Category Text="Help" Enabled="true" Tag="CategoryTag"/>
+    </Categories>
+    <!--TabButton数组-->
+    <TabButtons>
+      <TabButton Text="up" PictureName="png\up.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="TabButtonTag" Clicked="ue_SetMini" Selected=""/>
+      <TabButton Text="Help" PictureName="png\help.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="TabButtonTag" Clicked="ue_test" Selected=""/>
+      <TabButton Text="disc" PictureName="png\burn-to-disc.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="ItemTip" PowerTipDescription="Description" Tag="TabButtonTag" Clicked="ue_test" Selected="">
+        <Menu>
+          <Item Text="Print First" PictureName="png\first.png" Checked="true" Enabled="true" Tag="Menu1" Type="0" Clicked="ue_test3" Selected="">
+            <Item Text="ButtonSubMenu1" Shortcut="shift+8" PictureName="png\first.png" Checked="false" Enabled="true" Tag="ButtonSubMenu1" Type="0" Clicked="ue_test3" Selected="" />
+            <Item Text="ButtonSubMenu2" Shortcut="shift+9" PictureName="png\first.png" Checked="false" Enabled="true" Tag="ButtonSubMenu2" Type="0" Clicked="ue_test3" Selected="" />
+          </Item>
+          <Item Text="Position Insert" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+          <Item Text="Menu Test" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+          <Item Type="1" />
+          <Item Text="Print Windows afxtestttttt" PictureName="png\first.png" Checked="false" Enabled="true" Tag="Menu2" Type="0" Clicked="ue_test3" Selected="" />
+          <Item Type="1" />
+        </Menu>
+      </TabButton>
+      <TabButton Text="close" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="" PowerTipDescription="" Clicked="ue_close">
+      </TabButton>
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>

@@ -1,0 +1,174 @@
+﻿$PBExportHeader$m_menu11.srm
+forward
+global type m_menu11 from menu
+end type
+type m_11 from menu within m_menu11
+end type
+type m_110 from menu within m_11
+end type
+type m_aa from menu within m_11
+end type
+type m_11 from menu within m_menu11
+m_110 m_110
+m_aa m_aa
+end type
+type m_22 from menu within m_menu11
+end type
+global type m_menu11 from menu
+m_11 m_11
+m_22 m_22
+end type
+end forward
+
+global type m_menu11 from menu
+m_11 m_11
+m_22 m_22
+end type
+global m_menu11 m_menu11
+
+on m_menu11.create
+m_menu11=this
+call super::create
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_11=create m_11
+this.m_22=create m_22
+this.Item[UpperBound(this.Item)+1]=this.m_11
+this.Item[UpperBound(this.Item)+1]=this.m_22
+end on
+
+on m_menu11.destroy
+call super::destroy
+destroy(this.m_11)
+destroy(this.m_22)
+end on
+
+type m_11 from menu within m_menu11
+m_110 m_110
+m_aa m_aa
+end type
+
+on m_11.create
+call super::create
+this.text = "11"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+this.m_110=create m_110
+this.m_aa=create m_aa
+this.Item[UpperBound(this.Item)+1]=this.m_110
+this.Item[UpperBound(this.Item)+1]=this.m_aa
+end on
+
+on m_11.destroy
+call super::destroy
+destroy(this.m_110)
+destroy(this.m_aa)
+end on
+
+type m_110 from menu within m_11
+end type
+
+on m_110.create
+call super::create
+this.text = "11"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_110.destroy
+call super::destroy
+end on
+
+type m_aa from menu within m_11
+end type
+
+on m_aa.create
+call super::create
+this.text = "aa"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_aa.destroy
+call super::destroy
+end on
+
+type m_22 from menu within m_menu11
+end type
+
+on m_22.create
+call super::create
+this.text = "22"
+this.menutextcolor = 134217735
+this.menubackcolor = 134217732
+this.menuhighlightcolor = 134217741
+this.textsize = 8
+this.weight = 400
+this.facename = "Tahoma"
+this.titlebackcolor = 134217730
+this.bitmapbackcolor = 12632256
+this.menubitmaps = true
+this.titlegradient = true
+this.toolbartextcolor = 134217746
+this.toolbarbackcolor = 67108864
+this.toolbarhighlightcolor = 134217741
+this.toolbargradient = true
+this.bitmapgradient = true
+end on
+
+on m_22.destroy
+call super::destroy
+end on
+
